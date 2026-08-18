@@ -1,0 +1,539 @@
+---
+title: "Programme"
+title-block-banner: "#00000000"
+title-block-banner-color: "white"
+format:
+  html:
+    include-in-header:
+      - text: |
+          <style>
+          #title-block-header {
+            background-image: url(images/Cloisters at Glasgow University.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+          }
+          /* Title */
+          .quarto-title-block .title {
+            font-size: 3.5rem !important;
+            font-weight: 700;
+            color: white;
+          }
+          /* Subtitle */
+          .quarto-title-block .subtitle {
+            font-size: 1.6rem !important;
+            color: white;
+          }
+          /* Metadata (if any) */
+          #title-block-header.quarto-title-block.default .quarto-title-meta {
+            color: white;
+          }
+          </style>
+  pdf: default
+embed-resources: true
+---
+
+
+
+<!-- ::: {.callout-note appearance="minimal" icon="false"} -->
+<!-- ## 💻 Pre-conference tutorials -->
+
+<!-- Pre-conference tutorials will take place at the [School of Maths & Stats](https://www.google.com/maps/search/?api=1&query=School+of+Mathematics+and+Statistics+University+of+Glasgow) -->
+
+<!-- Please refer to the [tutorials section](workshops.qmd) for further details. -->
+<!-- ::: -->
+
+<!-- ::: {.callout-note appearance="minimal" icon="false"} -->
+<!-- ## 🏛️ Civic Reception — Glasgow City Chambers -->
+
+<!-- Hosted at the historic **Glasgow City Chambers**, George Square G2 1DU. -->
+
+<!-- **Getting there:** Short walk from Buchanan Street and Queen Street stations.\ -->
+<!-- *Dress code guidance will be sent to registered participants closer to the event.* -->
+<!-- ::: -->
+
+
+
+:::: {.content-visible when-format="html"}
+# Workshop Programme {#schedule-tabs}
+
+<!-- ::: panel-tabset -->
+<!-- ### Monday 21 -->
+
+<!-- | Time          | Session                    | -->
+<!-- |:--------------|:----------------------------| -->
+<!-- | 08:30 – 09:00 | Registration                | -->
+<!-- | 09:00 – 10:30 | **Tutorial 1**               | -->
+<!-- | 10:30 – 11:00 | Coffee break                 | -->
+<!-- | 11:00 – 12:30 | **Tutorial 1 (cont.)**        | -->
+<!-- | 12:30 – 13:30 | **Lunch** 🍽                  | -->
+<!-- | 13:30 – 15:00 | **Tutorial 2**                | -->
+<!-- | 15:00 – 15:30 | Coffee break                  | -->
+<!-- | 15:30 – 17:00 | **Tutorial 2 (cont.)**         | -->
+
+<!-- ### Tuesday 22 -->
+
+<!-- | Time          | Session                     | -->
+<!-- |:--------------|:-----------------------------| -->
+<!-- | 08:30 – 09:00 | Registration                 | -->
+<!-- | 09:00 – 09:10 | Opening                       | -->
+<!-- | 09:10 – 10:00 | **Keynote 1**                 | -->
+<!-- | 10:00 – 10:30 | Coffee break                  | -->
+<!-- | 10:30 – 11:30 | Contributed talks              | -->
+<!-- | 11:30 – 11:45 | Short break                    | -->
+<!-- | 11:45 – 13:00 | Contributed talks              | -->
+<!-- | 13:00 – 14:30 | **Lunch** 🍽                    | -->
+<!-- | 14:30 – 15:30 | Contributed talks               | -->
+<!-- | 15:30 – 15:45 | Short break                     | -->
+<!-- | 15:45 – 17:00 | Poster session                  | -->
+<!-- | 18:00 - 19:00 | **Welcome reception**              | -->
+
+<!-- ### Wednesday 23 -->
+
+<!-- | Time          | Session                     | -->
+<!-- |:--------------|:-----------------------------| -->
+<!-- | 09:00 – 10:00 | **Keynote 2**                 | -->
+<!-- | 10:00 – 10:30 | Coffee break                  | -->
+<!-- | 10:30 – 11:30 | Contributed talks             | -->
+<!-- | 11:30 – 11:45 | Short break                     | -->
+<!-- | 11:45 – 13:00 | Contributed talks               | -->
+<!-- | 13:00 – 14:30 | **Lunch** 🍽                    | -->
+<!-- | 14:30 – 15:30 | Contributed talks               | -->
+<!-- | 15:30 – 16:00 | Coffee break                    | -->
+<!-- | 16:00 – 17:00 | Contributed talks               | -->
+<!-- | 17:30 onwards | **Social Event**            | -->
+
+
+<!-- ### Thursday 24 -->
+
+<!-- | Time          | Session                     | -->
+<!-- |:--------------|:-----------------------------| -->
+<!-- | 09:30 – 10:30 | **Keynote 3**                 | -->
+<!-- | 10:30 – 11:00 | Coffee break                  | -->
+<!-- | 11:00 – 12:00 | Contributed talks             | -->
+<!-- | 12:00 – 13:30 | **Lunch** 🍽                    | -->
+<!-- | 13:30 – 14:30 | Contributed talks                | -->
+<!-- | 14:30 – 15:00 | Coffee break                    | -->
+<!-- | 15:00 – 16:00 | Contributed talks               | -->
+<!-- | 16:00 – 16:30 | **Awards + closing**            | -->
+
+<!-- ::: -->
+
+```{=html}
+<style>
+.schedule-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: 50px repeat(4, 180px);
+  grid-template-rows: 42px repeat(21, 32px);
+  gap: 2px;
+  width: fit-content;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.day {
+  background: #222;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+
+.time {
+  font-size: 0.75rem;
+  text-align: right;
+  padding-right: 7px;
+  color: #555;
+  transform: translateY(-7px);
+}
+
+.event {
+  border-radius: 3px;
+  padding: 5px 7px;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.15;
+  overflow: hidden;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-title {
+  font-weight: 700;
+}
+
+.event-time {
+  margin-top: 3px;
+  font-size: 0.72rem;
+}
+
+.tutorial     { background: #D9EAD3; }
+.keynote      { background: #F9CB9C; }
+.talks        { background: #F4CCCC; }
+.breaks       { background: #9FC5E8; }
+.social       { background: #D9D2E9; }
+.ceremony     { background: #FFE599; }
+.registration { background: #DDDDDD; }
+.shortbreak   { background: #D9EDF7; }
+
+.legend {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  max-width: 1000px;
+  margin: 18px auto 30px;
+  font-size: 0.78rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-box {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #aaa;
+}
+
+@media (max-width: 800px) {
+  .schedule {
+    min-width: 700px;
+  }
+}
+</style>
+
+<div class="schedule-wrapper">
+<div class="schedule">
+
+  <!-- Headers -->
+  <div></div>
+  <div class="day" style="grid-column:2;">Monday 21</div>
+  <div class="day" style="grid-column:3;">Tuesday 22</div>
+  <div class="day" style="grid-column:4;">Wednesday 23</div>
+  <div class="day" style="grid-column:5;">Thursday 24</div>
+
+  <!-- Times -->
+  <div class="time" style="grid-column:1;grid-row:2;">08:30</div>
+  <div class="time" style="grid-column:1;grid-row:3;">09:00</div>
+  <div class="time" style="grid-column:1;grid-row:4;">09:30</div>
+  <div class="time" style="grid-column:1;grid-row:5;">10:00</div>
+  <div class="time" style="grid-column:1;grid-row:6;">10:30</div>
+  <div class="time" style="grid-column:1;grid-row:7;">11:00</div>
+  <div class="time" style="grid-column:1;grid-row:8;">11:30</div>
+  <div class="time" style="grid-column:1;grid-row:9;">12:00</div>
+  <div class="time" style="grid-column:1;grid-row:10;">12:30</div>
+  <div class="time" style="grid-column:1;grid-row:11;">13:00</div>
+  <div class="time" style="grid-column:1;grid-row:12;">13:30</div>
+  <div class="time" style="grid-column:1;grid-row:13;">14:00</div>
+  <div class="time" style="grid-column:1;grid-row:14;">14:30</div>
+  <div class="time" style="grid-column:1;grid-row:15;">15:00</div>
+  <div class="time" style="grid-column:1;grid-row:16;">15:30</div>
+  <div class="time" style="grid-column:1;grid-row:17;">16:00</div>
+  <div class="time" style="grid-column:1;grid-row:18;">16:30</div>
+  <div class="time" style="grid-column:1;grid-row:19;">17:00</div>
+  <div class="time" style="grid-column:1;grid-row:20;">17:30</div>
+  <div class="time" style="grid-column:1;grid-row:21;">18:00</div>
+  <div class="time" style="grid-column:1;grid-row:22;">18:30</div>
+
+  <!-- MONDAY -->
+
+  <div class="event registration" style="grid-column:2;grid-row:2/3;">
+    <div class="event-title">Registration</div>
+  </div>
+
+  <div class="event tutorial" style="grid-column:2;grid-row:3/6;">
+    <div class="event-title">Tutorial 1</div>
+    <div class="event-time">09:00–10:30</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:2;grid-row:6/7;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">10:30–11:00</div>
+  </div>
+
+  <div class="event tutorial" style="grid-column:2;grid-row:7/10;">
+    <div class="event-title">Tutorial 1 (cont.)</div>
+    <div class="event-time">11:00–12:30</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:2;grid-row:10/12;">
+    <div class="event-title">Lunch</div>
+    <div class="event-time">12:30–13:30</div>
+  </div>
+
+  <div class="event tutorial" style="grid-column:2;grid-row:12/15;">
+    <div class="event-title">Tutorial 2</div>
+    <div class="event-time">13:30–15:00</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:2;grid-row:15/16;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">15:00–15:30</div>
+  </div>
+
+  <div class="event tutorial" style="grid-column:2;grid-row:16/19;">
+    <div class="event-title">Tutorial 2 (cont.)</div>
+    <div class="event-time">15:30–17:00</div>
+  </div>
+
+  <!-- TUESDAY -->
+
+  <div class="event registration" style="grid-column:3;grid-row:2/3;">
+    <div class="event-title">Registration</div>
+  </div>
+
+  <div class="event ceremony"
+     style="grid-column:3;grid-row:3;height:26px;z-index:2;padding:2px 7px;">
+  <div class="event-title">Opening</div>
+  <div class="event-time" style="margin-top:1px;">09:00–09:10</div>
+</div>
+
+  <div class="event keynote"
+     style="grid-column:3;grid-row:3/5;margin-top:28px;">
+  <div class="event-title">Keynote 1</div>
+  <div class="event-time">09:10–10:00</div>
+</div>
+
+  <div class="event breaks" style="grid-column:3;grid-row:5/6;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">10:00–10:30</div>
+  </div>
+
+  <div class="event talks" style="grid-column:3;grid-row:6/8;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">10:30–11:30</div>
+  </div>
+
+  <div class="event shortbreak"
+       style="grid-column:3;grid-row:8;height:45%;">
+    <div class="event-title">Short break</div>
+  </div>
+
+  <div class="event talks"
+       style="grid-column:3;grid-row:8/11;margin-top:18px;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">11:45–13:00</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:3;grid-row:11/14;">
+    <div class="event-title">Lunch</div>
+    <div class="event-time">13:00–14:30</div>
+  </div>
+
+  <div class="event talks" style="grid-column:3;grid-row:14/16;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">14:30–15:30</div>
+  </div>
+
+  <div class="event shortbreak"
+       style="grid-column:3;grid-row:16;height:45%;">
+    <div class="event-title">Short break</div>
+  </div>
+
+  <div class="event social"
+       style="grid-column:3;grid-row:16/19;margin-top:18px;">
+    <div class="event-title">Poster session</div>
+    <div class="event-time">15:45–17:00</div>
+  </div>
+
+  <div class="event social" style="grid-column:3;grid-row:21/23;">
+    <div class="event-title">Welcome reception</div>
+    <div class="event-time">18:00–19:00</div>
+  </div>
+
+  <!-- WEDNESDAY -->
+
+  <div class="event keynote" style="grid-column:4;grid-row:3/5;">
+    <div class="event-title">Keynote 2</div>
+    <div class="event-time">09:00–10:00</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:4;grid-row:5/6;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">10:00–10:30</div>
+  </div>
+
+  <div class="event talks" style="grid-column:4;grid-row:6/8;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">10:30–11:30</div>
+  </div>
+
+  <div class="event shortbreak"
+       style="grid-column:4;grid-row:8;height:45%;">
+    <div class="event-title">Short break</div>
+  </div>
+
+  <div class="event talks"
+       style="grid-column:4;grid-row:8/11;margin-top:18px;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">11:45–13:00</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:4;grid-row:11/14;">
+    <div class="event-title">Lunch</div>
+    <div class="event-time">13:00–14:30</div>
+  </div>
+
+  <div class="event talks" style="grid-column:4;grid-row:14/16;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">14:30–15:30</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:4;grid-row:16/17;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">15:30–16:00</div>
+  </div>
+
+  <div class="event talks" style="grid-column:4;grid-row:17/19;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">16:00–17:00</div>
+  </div>
+
+  <div class="event social" style="grid-column:4;grid-row:20/23;">
+    <div class="event-title">Social event</div>
+    <div class="event-time">17:30 onwards</div>
+  </div>
+
+  <!-- THURSDAY -->
+
+  <div class="event keynote" style="grid-column:5;grid-row:4/6;">
+    <div class="event-title">Keynote 3</div>
+    <div class="event-time">09:30–10:30</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:5;grid-row:6/7;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">10:30–11:00</div>
+  </div>
+
+  <div class="event talks" style="grid-column:5;grid-row:7/9;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">11:00–12:00</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:5;grid-row:9/12;">
+    <div class="event-title">Lunch</div>
+    <div class="event-time">12:00–13:30</div>
+  </div>
+
+  <div class="event talks" style="grid-column:5;grid-row:12/14;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">13:30–14:30</div>
+  </div>
+
+  <div class="event breaks" style="grid-column:5;grid-row:14/15;">
+    <div class="event-title">Coffee break</div>
+    <div class="event-time">14:30–15:00</div>
+  </div>
+
+  <div class="event talks" style="grid-column:5;grid-row:15/17;">
+    <div class="event-title">Contributed talks</div>
+    <div class="event-time">15:00–16:00</div>
+  </div>
+
+  <div class="event ceremony" style="grid-column:5;grid-row:17/18;">
+    <div class="event-title">Awards + closing</div>
+    <div class="event-time">16:00–16:30</div>
+  </div>
+
+</div>
+</div>
+
+<div class="legend">
+
+  <div class="legend-item">
+    <span class="legend-box tutorial"></span>
+    <span>Tutorial</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-box keynote"></span>
+    <span>Keynote</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-box talks"></span>
+    <span>Contributed talks</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-box breaks"></span>
+    <span>Breaks + lunch</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-box social"></span>
+    <span>Poster + social</span>
+  </div>
+
+  <div class="legend-item">
+    <span class="legend-box ceremony"></span>
+    <span>Opening + closing</span>
+  </div>
+
+</div>
+```
+
+::: coming-soon
+## 🏛️ Welcome Reception
+Our welcome reception will take place on Tuesday 22 June, from 18:00–19:00, in Glasgow city centre. Further details, including the venue and dress code, will be added here closer to the event.
+:::
+
+
+::: coming-soon
+## 🏛️ Social Event
+Our social event will take place on Wednesday from 17:30 onwards at the Glasgow University Union building. Further details will be added soon.
+
+:::
+
+# Awards
+
+The Best Poster and Best Contributed Talk Awards recognise outstanding contributions to the workshop We are particularly committed to highlighting the achievements of early-career researchers (within 8 years of completion of PhD), including PhD students and postdoctoral fellows.
+
+Award winners will be announced on the final day of the workshop. All submissions for contributed talks and posters by students and early-career researchers will automatically be considered for these awards.
+
+
+
+
+::::
+
+```{=html}
+<!-- ═══════════════════════════════════════════════════════════
+     PDF VERSION  (flat sections, no tabs, no emojis)
+     ═══════════════════════════════════════════════════════════
+```
+
+
+
+::: {.content-visible when-format="pdf"}
+
+
+::: coming-soon
+Workshop full programme will be added here soon.
+:::
+
+![](EnviBayes_INLA_programme.pdf){width=120% fig-align="center"}
+
+
+# Awards
+
+The Best Poster and Best Contributed Talk Awards recognise outstanding contributions to the workshop We are particularly committed to highlighting the achievements of early-career researchers (within 8 years of completion of PhD), including PhD students and postdoctoral fellows.
+
+Award winners will be announced on the final day of the workshop. All submissions for contributed talks and posters by students and early-career researchers will automatically be considered for these awards.
+
+
+:::
+

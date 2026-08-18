@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+  - index.qmd
+  - schedules.qmd
+  - workshops.qmd
+  - organisers.qmd
+  - accommodation.qmd
+website:
+  title: EnviBayes/INLA workshop
+  navbar:
+    logo: images/EnviBayes-INLA_workshop_logo.png
+    left:
+    - text: Home
+      menu:
+      - text: Submission & Registration
+        href: index.qmd#regis
+      - text: Important Dates 
+        href: index.qmd#dates
+      - text: Keynote Speakers
+        href: index.qmd#keynotes
+  
+    - text: Tutorials
+      href: workshops.qmd
+    - text: Programme & Awards
+      href: schedules.qmd
+    - text: Venue & Travel
+      href: accommodation.qmd
+    - text: Organisers
+      href: organisers.qmd
+format:
+  html:
+    theme: flatly
+    respect-user-color-scheme: false
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    css: styles.css   
+execute:
+  freeze: auto

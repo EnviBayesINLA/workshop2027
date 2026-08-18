@@ -1,0 +1,64 @@
+---
+title: "Organising Comittee"
+title-block-banner: "#00000000"
+title-block-banner-color: "white"
+include-in-header:
+  - text: |
+      <style>
+
+      #title-block-header {
+        background-image: url(images/River_Clyde.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+      }
+
+      /* Title */
+      .quarto-title-block .title {
+        font-size: 3.5rem !important;
+        font-weight: 700;
+        color: white;
+      }
+
+      /* Subtitle */
+      .quarto-title-block .subtitle {
+        font-size: 1.6rem !important;
+        color: white;
+      }
+
+      /* Metadata (if any) */
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: white;
+      }
+      </style>
+
+format:
+  html:
+    embed-resources: true
+editor_options:
+  chunk_output_type: console
+---
+
+## Organising Committee
+
+- [**Daniela Castro-Camilo**](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/)
+- [**Jafet Belmont Osuna**](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/jafetbelmontosuna/)
+- [Claire Miller](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/clairemiller/)
+- [Marian Scott](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/escott/)
+- [Craig Wilkie](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/craigwilkie/)
+- [Craig Anderson](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/craiganderson/)
+- [Duncan Lee](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/duncanlee/)
+- [Archer Gong Zhang](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/archergongzhang/)
+- [Janine Illian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/janineillian/)
+- [David Bolin](https://www.kaust.edu.sa/en/study/faculty/david-bolin)
+
+
+## Scientific Committee
+
+- [**Claire Miller**](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/clairemiller/)
+- [Marian Scott](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/escott/)
+- [Craig Anderson](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/craiganderson/)
+- [Janine Illian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/janinei)
+- [Andrew Zammit-Mangion](https://www.unsw.edu.au/staff/andrew-zammit-mangion)
+- [Eleni Matechou](https://www.seresearch.qmul.ac.uk/cpsd/people/eatechou/)
+- [Sahani Pathiraja](https://www.unsw.edu.au/staff/sahani-pathiraja)

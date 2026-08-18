@@ -1,0 +1,133 @@
+---
+title: "EnviBayes-INLA workshop"
+subtitle: "22–24 June 2027 • Glasgow, UK"
+title-block-banner: "#00000000"
+title-block-banner-color: "white"
+format:
+  html:
+    include-in-header:
+      - text: |
+          <style>
+          #title-block-header {
+            background-image: url(images/Glasgow_Cityscape.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+          }
+          /* Title */
+          .quarto-title-block .title {
+            font-size: 3.5rem !important;
+            font-weight: 700;
+            color: white;
+          }
+          /* Subtitle */
+          .quarto-title-block .subtitle {
+            font-size: 1.6rem !important;
+            color: white;
+          }
+          /* Metadata (if any) */
+          #title-block-header.quarto-title-block.default .quarto-title-meta {
+            color: white;
+          }
+          </style>
+
+editor_options:
+  chunk_output_type: console
+---
+
+<!-- ::: {.callout-warning appearance="minimal" icon="false"} -->
+<!-- **Abstract submission**  -->
+<!-- now open - submit [here](https://github.com/EnviBayesINLA/workshop/docs)  -->
+<!-- update link with google form -->
+
+<!-- **Deadline**: XXXX -->
+<!-- ::: -->
+
+
+The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBayes and INLA workshop series, bringing together researchers developing Bayesian methods for environmental, ecological, spatial and spatio-temporal statistics. The programme will feature keynote lectures, contributed talks, poster sessions, and hands-on tutorials, covering a broad range of topics including INLA, spatial modelling, extreme value analysis, climate and weather, ecology, epidemiology, and environmental applications. The workshop builds on the success of previous EnviBayes workshops ([2023](https://statistics.colostate.edu/envibayes-workshop/?utm_source=chatgpt.com), [2025](https://sites.google.com/view/envibayes2025tamu/home?utm_source=chatgpt.com)) and the [INLA: Past, Present and Future workshop](https://inla-workshop.github.io/INLA-PastPresentFuture/), creating a unique opportunity for collaboration between these two vibrant research communities.
+
+
+
+
+## Activities Overview {#sec-activities}
+- Two pre-conference tutorials 
+-  Keynote talks
+-  Contributes talks
+- Poster session
+- Welcome reception
+-  Social event
+- Awards
+
+## Registration and Abstract Submission {#sec-regis}
+::: coming-soon
+Information about registration and abstract submission for talks and posters will be added here soon.
+:::
+
+
+## Important Dates {#sec-dates}
+
+::: {.info-box}
+::::: columns
+::: {.column width="50%"}
+#### Contributed Talks & Posters Submission
+- **Open**: Expected September 2026
+- **Close**: Expected December 2026
+:::
+::: {.column width="50%"}
+#### Registration
+- **Early Bird Opens**: Expected September 2026
+- **Early Bird Closes**: Expected January 2027
+- **Standard registration Closes**: Expected March 2027
+:::
+:::::
+:::
+
+## Registration Cost 
+
+---
+
+The registration fee includes access to the workshop, coffee breaks, lunch, a welcome reception, and social event. Tutorials are subject to a separate fee, as indicated below.
+
+::: {.info-box}
+::::: columns
+::: {.column width="50%"}
+#### Non-Students
+- **Early bird**: £250.00
+- **ISBA member**: £250.00
+- **Regular**: £300.00
+- **Tutorials**($^\star$): £30.00
+
+:::
+::: {.column width="50%"}
+#### Students
+- **Early bird**: £175.00
+- **ISBA member**: £175.00
+- **Regular**:  £200.00
+- **Tutorials**($^\star$): £15.00
+:::
+($^\star$) price per tutorial
+:::::
+:::
+
+## Keynote speakers {#sec-keynotes}
+
+::: coming-soon
+Information about Keynote speakers will be added here soon.
+:::
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: {layout-ncol="3"} -->
+<!-- ![Speaker1](images/Speaker1.png){width="185"} -->
+
+<!-- ![Speaker2](images/Speaker1.png){width="185"} -->
+
+<!-- ![Speaker3](images/Speaker1.png){width="185"} -->
+<!-- ::: -->
+
+## Contact {#sec-contact}
+
+Questions about the conference? Join the discussion on [GitHub](https://github.com/EnviBayesINLA/workshop/discussions) or contact the main organisers [Daniela Castro-Camilo](mailto:daniela.castro-camilo@glasgow.ac.uk) and [Jafet Belmont Osuna](mailto:jafet.belmontosuna@glasgow.ac.uk). 
+
+
+
