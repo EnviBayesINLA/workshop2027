@@ -46,7 +46,7 @@
     "href": "workshops.html",
     "title": "Tutorials",
     "section": "",
-    "text": "The following tutorials will take place prior to the EnviBayes-INLA Workshop. Please refer to the main workshop page for tutorial fees. The fee includes one coffee break per tutorial; lunch is not included.\n\n\n\n\n\n\nNoteGetting More Complex with Environmental Modelling: from mgcv to Stan\n\n\n\n\nDave Miller, Biomathematics and Statistics Scotland (BioSS)\n\nIn this tutorial I’ll give a brief introduction to making the jump from modelling in the GAM-centric package mgcv to the more general Stan probabilistic programming language. I’ll give some background on how the innards of mgcv work and how we can adapt these constructions to be used in more general ecological and environmental models. Adding spatial and temporal smoothers and structured random effects can help to add generality and flexibility to our models. Using mgcv to generate these structures makes things easier, especially when it comes to highly complex effects.\nDuration: 3 hours\nDate: Monday 21\\(^\\text{st}\\) June, 2027\nTime: 09:00 – 12:30\nVenue: Room 116, School of Mathematics & Statistics\n\n\n\n\n\n\n\n\n\nNoteINLA AND BEYOND: Bayesian Hierarchical Modelling with inlabru\n\n\n\n\nJafet Belmont Osuna, University of Glasgow\n\nINLA, a powerful tool for efficiently fitting complex spatial models, comes with a steep learning curve. This workshop introduces inlabru – a user-friendly interface to INLA. Learn to specify models intuitively, handle spatial data efficiently, and focus on data structures and interpretation, rather than computational complexity!\nDuration: 3 hours\nDate: Monday 21\\(^\\text{st}\\) June, 2027\nTime: 13:30 – 17:00\nVenue: Room 116, School of Mathematics & Statistics"
+    "text": "The following tutorials will take place prior to the EnviBayes-INLA Workshop. Please refer to the main workshop page for tutorial fees. The fee includes one coffee break per tutorial; lunch is not included.\n\n\n\n\n\n\nNoteGetting more Complex with Environmental Modelling: from mgcv to Stan\n\n\n\n\nDave Miller, Biomathematics and Statistics Scotland (BioSS)\n\nIn this tutorial I’ll give a brief introduction to making the jump from modelling in the GAM-centric package mgcv to the more general Stan probabilistic programming language. I’ll give some background on how the innards of mgcv work and how we can adapt these constructions to be used in more general ecological and environmental models. Adding spatial and temporal smoothers and structured random effects can help to add generality and flexibility to our models. Using mgcv to generate these structures makes things easier, especially when it comes to highly complex effects.\nDuration: 3 hours\nDate: Monday 21\\(^\\text{st}\\) June, 2027\nTime: 09:00 – 12:30\nVenue: Room 116, School of Mathematics & Statistics\n\n\n\n\n\n\n\n\n\nNoteINLA AND BEYOND: Bayesian Hierarchical Modelling with inlabru\n\n\n\n\nJafet Belmont Osuna, University of Glasgow\n\nINLA, a powerful tool for efficiently fitting complex spatial models, comes with a steep learning curve. This workshop introduces inlabru – a user-friendly interface to INLA. Learn to specify models intuitively, handle spatial data efficiently, and focus on data structures and interpretation, rather than computational complexity!\nDuration: 3 hours\nDate: Monday 21\\(^\\text{st}\\) June, 2027\nTime: 13:30 – 17:00\nVenue: Room 116, School of Mathematics & Statistics"
   },
   {
     "objectID": "index.html",
@@ -61,6 +61,13 @@
     "title": "EnviBayes-INLA workshop",
     "section": "Activities Overview",
     "text": "Activities Overview\n\nTwo pre-conference tutorials\nKeynote talks\nContributes talks\nPoster session\nWelcome reception\nSocial event\nAwards"
+  },
+  {
+    "objectID": "index.html#interested-in-attending",
+    "href": "index.html#interested-in-attending",
+    "title": "EnviBayes-INLA workshop",
+    "section": "Interested in attending?",
+    "text": "Interested in attending?\nPlanning to join us in Glasgow for the EnviBayes–INLA Workshop 2027?\nIf you are interested in attending, please add your name and email address below. We will let you know when registration and abstract submission open.\nCompleting this form is not a registration and does not commit you to attending.\n\n  \n    Register your interest\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYour details will only be used to send you updates about the EnviBayes–INLA Workshop 2027."
   },
   {
     "objectID": "index.html#sec-regis",

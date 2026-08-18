@@ -3,34 +3,37 @@ title: "Tutorials"
 subtitle: "21 June 2027"
 title-block-banner: "#00000000"
 title-block-banner-color: "white"
+
 format:
   html:
     include-in-header:
       - text: |
           <style>
-          #title-block-header {
-            background-image: url(images/Cityscape.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 250px;
-          }
           /* Title */
           .quarto-title-block .title {
             font-size: 3.5rem !important;
             font-weight: 700;
             color: white;
           }
+
           /* Subtitle */
           .quarto-title-block .subtitle {
             font-size: 1.6rem !important;
             color: white;
           }
-          /* Metadata (if any) */
+
+          #title-block-header {
+            background-image: url(images/Cityscape.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+          }
+
           #title-block-header.quarto-title-block.default .quarto-title-meta {
             color: white;
           }
           </style>
-  
+
 editor_options:
   chunk_output_type: console
 ---
@@ -41,7 +44,7 @@ The following tutorials will take place prior to the EnviBayes-INLA Workshop. Pl
 
 
 ::: {.callout-note appearance="minimal" icon="false"}
-## Getting More Complex with Environmental Modelling: from `mgcv` to `Stan`
+## Getting more Complex with Environmental Modelling: from `mgcv` to `Stan`
 \
 **Dave Miller,** Biomathematics and Statistics Scotland (BioSS)
 \
