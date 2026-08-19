@@ -126,6 +126,7 @@ Information about registration and abstract submission for talks and posters wil
 
 The registration fee includes access to the workshop, coffee breaks, lunch, a welcome reception, and social event. Tutorials are subject to a separate fee, as indicated below.
 
+
 ::: {.info-box}
 ::::: columns
 ::: {.column width="50%"}
@@ -146,6 +147,8 @@ The registration fee includes access to the workshop, coffee breaks, lunch, a we
 ($^\star$) price per tutorial
 :::::
 :::
+
+**Please note**: Student fees are provisional and subject to confirmation of external funding. We expect to offer the rates shown above and will confirm these with registered students once funding arrangements are finalised.
 
 ## Keynote speakers {#sec-keynotes}
 
