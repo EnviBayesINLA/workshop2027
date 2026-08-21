@@ -120,7 +120,7 @@ Information about registration and abstract submission for talks and posters wil
 :::::
 :::
 
-## Registration Cost 
+## Registration Cost {#sec-costs} 
 
 ---
 
