@@ -3,10 +3,11 @@ project:
   output-dir: docs
   render:
   - index.qmd
-  - schedules.qmd
-  - workshops.qmd
+  - programme.qmd
+  - tutorials.qmd
   - organisers.qmd
-  - accommodation.qmd
+  - venue-travel.qmd
+  - keynotes.qmd
 website:
   title: EnviBayes/INLA workshop
   navbar:
@@ -21,12 +22,14 @@ website:
       - text: Keynote Speakers
         href: index.qmd#keynotes
   
-    - text: Tutorials
-      href: workshops.qmd
     - text: Programme & Awards
-      href: schedules.qmd
+      href: programme.qmd
+    - text: Keynote Speakers
+      href: keynotes.qmd
+    - text: Tutorials
+      href: tutorials.qmd
     - text: Venue & Travel
-      href: accommodation.qmd
+      href: venue-travel.qmd
     - text: Organisers
       href: organisers.qmd
 format:

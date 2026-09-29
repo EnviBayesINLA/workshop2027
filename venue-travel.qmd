@@ -1,0 +1,287 @@
+---
+title: "Venue & Travel"
+title-block-banner: "#00000000"
+title-block-banner-color: "white"
+format:
+  html:
+    include-in-header:
+      - text: |
+          <style>
+          #title-block-header {
+            background-image: url(images/Arran.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+          }
+          /* Title */
+          .quarto-title-block .title {
+            font-size: 3.5rem !important;
+            font-weight: 700;
+            color: white;
+          }
+          /* Subtitle */
+          .quarto-title-block .subtitle {
+            font-size: 1.6rem !important;
+            color: white;
+          }
+          /* Metadata (if any) */
+          #title-block-header.quarto-title-block.default .quarto-title-meta {
+            color: white;
+          }
+          </style>
+          
+embed-resources: true
+editor_options: 
+  chunk_output_type: console
+---
+
+This page brings together practical information to help you plan your visit to Glasgow for the EnviBayes-INLA workshop.
+
+## 🏫 Venue Information {#venue}
+
+The workshop takes place across several buildings on the University of Glasgow's Gilmorehill Campus. To help you find your way around, the map below shows where the workshop's activities will be held, from tutorials and talks to catering and poster sessions. Building-specific details, including accessibility information, are provided below.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(leaflet)
+
+leaflet() |>
+  addProviderTiles("OpenStreetMap",
+                   options = providerTileOptions(opacity = 0.5)) |>
+  addMarkers(
+    lng = -4.29273,
+    lat = 55.87359,
+    popup = "
+    <b>🎤 Main Panel Session</b><br>
+    Boyd Orr Building - LT 2
+    "
+  ) |>
+  addMarkers(
+    lng = -4.29338,
+    lat = 55.8731,
+    popup = "
+    <b>☕️ Coffee & Poster sessions </b><br>
+    Wolfson Medical School Building
+    "
+  ) |>
+  addMarkers(
+    lng = -4.294364935330928,
+    lat = 55.8726330456895,
+    popup = "
+    <b>💻️ Tutorials </b><br>
+    School of Maths & Stats
+    "
+  ) |>
+  addMarkers(
+    lng = -4.285,
+    lat = 55.8724,
+    popup = "
+    <b>🥳️  Social Event </b><br>
+    Glasgow University Union (GUU)
+    "
+  ) 
+
+```
+
+::: {style="margin-top: 2rem;"}
+:::
+
+```{=html}
+<div class="modal fade" id="maths-info" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Accessibility & Emergency — School of Maths & Stats</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Accessibility</strong></p>
+        <p>A passenger lift serves every level.</p>
+        <p>The main entrance has electric doors; they lock at 17:00, so please re-enter with a valid University ID card.</p>
+        <p><strong>In case of emergency</strong></p>
+        <p>Each staircase has a refuge area at the top for anyone who needs to wait for assistance.</p>
+        <p>The assembly point for this building is outside the British Heart Foundation Building on University Place.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="boydorr-info" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Accessibility & Emergency — Boyd Orr Building</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Accessibility</strong></p>
+        <p>A fully step-free entrance is available from Lilybank Gardens.</p>
+        <p><strong>In case of emergency</strong></p>
+        <ul>
+          <li>Proceed calmly to the assembly point at the corner of University Avenue and Ashton Road.</li>
+          <li>An automated external defibrillator is mounted just outside the janitors' office on the ground floor.</li>
+          <li>University of Glasgow staff and students should open the SafeZone phone application to alert Security if assistance is required.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="atrium-info" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Accessibility & Emergency — Atrium, Wolfson Building</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>The Atrium is on the ground floor and is completely step-free.</p>
+        <p>If the fire alarm sounds, leave by the nearest exit and gather at the bench area directly outside the main entrance.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="guu-info" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Accessibility & Emergency — Glasgow University Union</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Please visit the <a href="https://www.guu.co.uk/locationsandsustainability" target="_blank">GUU website</a> for full accessibility information.</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+::::::: venue-grid
+::: venue-card
+### [School of Maths & Stats, Room 116 📍](https://www.google.com/maps/search/?api=1&query=School+of+Mathematics+and+Statistics+University+of+Glasgow){target="_blank"}
+
+- [Pre-workshop tutorials](workshops.qmd)
+
+<button type="button" class="venue-info-link" data-bs-toggle="modal" data-bs-target="#maths-info">
+
+Accessibility & Emergency
+
+</button>
+:::
+
+::: venue-card
+### [Boyd Orr Building, LT2📍](https://www.google.com/maps/search/?api=1&query=Boyd+Orr+Building+University+of+Glasgow){target="_blank"}
+
+- Registration
+- Keynote panel sessions
+- Contributed talks
+
+<button type="button" class="venue-info-link" data-bs-toggle="modal" data-bs-target="#boydorr-info">
+
+Accessibility & Emergency
+
+</button>
+:::
+
+::: venue-card
+### [Atrium, Wolfson Building 📍](https://www.google.com/maps/search/?api=1&query=Wolfson+Medical+School+Building+University+of+Glasgow){target="_blank"}
+
+- Poster sessions
+- Coffee and refreshments
+
+<button type="button" class="venue-info-link" data-bs-toggle="modal" data-bs-target="#atrium-info">
+
+Accessibility & Emergency
+
+</button>
+:::
+
+::: venue-card
+### [Glasgow University Union📍](https://www.google.com/maps/search/?api=1&query=Glasgow+University+Union){target="_blank"}
+
+- Social event, more information soon
+<!-- - Dinner: Dining Hall -->
+<!-- - Ceilidh & Drinks: Debates Chamber -->
+<!-- - Food, Drinks, music, and informal networking -->
+
+<button type="button" class="venue-info-link" data-bs-toggle="modal" data-bs-target="#guu-info">
+
+Accessibility & Emergency
+
+</button>
+:::
+:::::::
+
+
+::: callout-important
+## Code of Conduct
+
+**Expected Behaviour**
+
+All members and participants must maintain a professional, respectful, and productive environment free from discrimination, harassment, and retaliation. Debate is encouraged but must be conducted with professionalism, respect, and courtesy.
+
+**Unacceptable Behaviour**
+
+Prohibited behaviours include threats, harassment, disrespectful comments or actions targeting personal characteristics (e.g., gender, race, religion, etc.), intimidation, stalking, inappropriate physical contact, and unwelcome sexual attention. Disorderly or disruptive conduct and violations of event rules are also unacceptable.
+
+These standards apply to all participants. Anyone who experiences, observes, or has knowledge of a violation should bring it to the attention of [Daniela Castro-Camilo](daniela.castrocamilo@glasgow.ac.uk) and [Jafet Belmont](jafet.belmontosuna@glasgow.ac.uk).
+:::
+
+
+
+## 🏨 Accommodation {#accommodation}
+
+The University of Glasgow is situated in the **West End**, with a variety of small hotels and guest houses nearby, as well as easy links to City Centre hotels via the Subway.
+
+The closest Subway station to the main University campus is **Hillhead**. For City Centre hotels, the closest stations are **Buchanan Street** and **St. Enoch**. The journey between the West End and City Centre takes around 10 minutes by Subway.
+
+Delegates are advised to **book early** to guarantee availability at their preferred hotel.
+
+{{< downloadthis AccommodationSheetUoG.pdf dname="Accomodation Glasgow" label="Download Accomodation details PDF" icon="database-fill-down" type="info" >}}
+
+## ✈️ Getting to Glasgow {#travel}
+
+Guidance on arriving by air (Glasgow and Edinburgh airports), rail connections to Glasgow Central and Queen Street stations, and intercity coach services — via VisitGlasgow's official travel guide.
+
+[View full travel guide →](https://www.visitglasgow.org.uk/convention-bureau/meeting-planners/travel/){.btn .btn-primary target="_blank"}
+
+### 🛂 Visa Information {#visa}
+
+Delegates travelling from outside the UK should check whether they need a visa or an Electronic Travel Authorisation (ETA) to attend. As of February 2026, most visa-exempt visitors (including from the EU, US, Canada, and Australia) now require an ETA before travelling — this is separate from a visa and is usually approved within a few days, but we recommend applying at least 2–3 weeks before travel. Check requirements via the [UK government's visa/ETA checker](https://www.gov.uk/check-uk-visa).
+
+::: {.callout-note title="Invitation letter for visa application"}
+If you require an official letter of invitation to support your visa or ETA application, please [**tick the related box in the registration form**](index.qmd#sec-regis). If you forget to do this or require further assistance, please [get in touch with the organising committee](organisers.qmd) with your name, affiliation, and passport details as they appear on your travel documents.
+:::
+
+## 🚇 Exploring & Getting Around Glasgow {#getting-around}
+
+Glasgow is a vibrant and compact city with plenty to offer delegates outside of conference sessions.
+
+The city has a range of cultural attractions including the works of Charles Rennie Mackintosh and many museums and art galleries offering free entry.
+
+If you’re extending your stay, Glasgow has excellent travel connections for exploring Scotland and an exciting selection of year-round tours leaving daily for the Scottish Highlands.
+
+Delegates can look forward to a warm welcome in a city voted ‘world’s friendliest city’ by Rough Guides.
+
+Plan your trip at: [visitglasgow.com](visitglasgow.com)
+
+[Getting around guide →](https://www.visitglasgow.com/plan-your-trip/getting-here-and-around/getting-around?rsrc=peoplemakeglasgow.com){.btn .btn-primary target="_blank"}
+
+[Things to do →](https://www.visitglasgow.com/explore-by-interest/arts-museums-and-heritage?rsrc=peoplemakeglasgow.com){.btn .btn-primary target="_blank"}
+
+![](images/Royal%20Exchange%20Square.jpg){fig-align="center" width="521"}
+
+## ♿ Accessibility & Sustainability {#accessibility}
+
+Check the following guides for details on accessibility & Sustainability
+
+[Accesability →](https://www.visitglasgow.org.uk/accessibility/){.btn .btn-primary target="_blank"}
+
+[Sustainability →](https://www.visitglasgow.org.uk/convention-bureau/meeting-planners/where-meetings-mean-more/){.btn .btn-primary target="_blank"}
+
+![](images/Kelvingrove.jpg){fig-align="center" width="521"}
+

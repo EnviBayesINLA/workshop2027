@@ -1,0 +1,154 @@
+---
+title: "Keynote Speakers"
+# subtitle: "21 June 2027"
+title-block-banner: "#00000000"
+title-block-banner-color: "white"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <style>
+          .quarto-title-block .title {
+            font-size: 3.5rem !important;
+            font-weight: 700;
+            color: white;
+          }
+
+          .quarto-title-block .subtitle {
+            font-size: 1.6rem !important;
+            color: white;
+          }
+
+          #title-block-header {
+            background-image: url(images/uofgcoss_cover2.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+          }
+
+          #title-block-header.quarto-title-block.default .quarto-title-meta {
+            color: white;
+          }
+
+          .keynote-card {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 180px;
+            gap: 2rem;
+            align-items: center;
+            margin: 1.5rem 0 2.5rem;
+            padding: 1.75rem;
+            background: #f7f5f2;
+            border-left: 4px solid #e8892b;
+            border-radius: 10px;
+          }
+
+          .keynote-card h2 {
+            margin-top: 0;
+          }
+
+          .keynote-role {
+            color: #52656d;
+            font-weight: 600;
+            line-height: 1.45;
+            margin-bottom: 1rem;
+          }
+
+          .keynote-bio {
+            text-align: justify;
+            hyphens: auto;
+          }
+
+          .keynote-photo img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            object-position: center top;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 4px 16px rgba(27, 79, 94, 0.18);
+          }
+
+          @media (max-width: 700px) {
+            .quarto-title-block .title {
+              font-size: 2.5rem !important;
+            }
+
+            .keynote-card {
+              grid-template-columns: 1fr;
+            }
+
+            .keynote-photo {
+              grid-row: 1;
+              text-align: center;
+            }
+          }
+          </style>
+
+
+editor_options:
+  chunk_output_type: console
+---
+
+
+::: {.keynote-card}
+::: {.keynote-copy}
+## Marta Blangiardo
+
+::: {.keynote-role}
+Professor of Biostatistics, Department of Epidemiology and Biostatistics, Imperial College London
+:::
+
+::: {.keynote-bio}
+Marta Blangiardo's research focused on environmental exposure estimation and spatial and spatio-temporal modelling for disease mapping and risk assessment. Her work includes air pollution modelling, environmental epidemiology, and climate-change-related health impacts. She leads the Biostatistics and Data Science theme of the MRC Centre for Environment and Health and is co-author of *Spatial and Spatio-Temporal Bayesian Models with R-INLA*.
+:::
+
+For more information, visit her [home page](https://profiles.imperial.ac.uk/m.blangiardo)
+:::
+
+::: {.keynote-photo}
+![](images/marta-blangiardo.jpg){fig-alt="Portrait of Marta Blangiardo"}
+:::
+:::
+
+::: {.keynote-card}
+::: {.keynote-copy}
+## Haziq Jamil
+
+::: {.keynote-role}
+Research Specialist, CEMSE Division, KAUST
+:::
+
+::: {.keynote-bio}
+Haziq Jamil's research lies at the intersection of statistical theory, computational methods, and social science applications. He obtained his PhD and MSc in Statistics from the London School of Economics and Political Science (LSE), and his BSc from Warwick University. At KAUST, he works with Prof. Håvard Rue in the BAYESCOMP group, tackling the computational challenges of Bayesian inference for modern psychometric applications of latent variable modelling.
+:::
+
+For more information, visit his [home page](https://haziqj.ml/)
+
+:::
+
+::: {.keynote-photo}
+![](images/haziq-jamil.png){fig-alt="Portrait of Haziq Jamil"}
+:::
+:::
+
+<!-- :::    -->
+
+<!-- ## Elias Teixeira Krainski -->
+
+<!-- Postdoctoral Research Fellow in Statistics, CEMSE Division, KAUST, Saudi Arabia -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="80%"} -->
+
+<!-- Dr Elias Teixeira Krainski is a Postdoctoral Research Fellow in Statistics at the King Abdullah University of Science and Technology (KAUST), working under the supervision of Professor Håvard Rue. He earned his PhD from the Norwegian University of Science and Technology in 2018 and has held positions as an Adjunct Professor at Universidade Federal do Paraná (2018-2019) and as a Postdoctoral Fellow at Dalhousie University (2019-2020). Dr Krainski’s work centres on developing complex yet accessible statistical models, with a focus on efficient Bayesian methods, spatio-temporal statistics, and Integrated Nested Laplace Approximations (INLA). -->
+
+<!-- For more information, visit his [home page](https://cemse.kaust.edu.sa/profiles/elias-teixeira-krainski) -->
+
+<!-- ::: -->
+<!-- ::: {.column width="20%"} -->
+
+<!-- ![](img/elias_krainski.png) -->
+
+
+<!-- ::: -->
