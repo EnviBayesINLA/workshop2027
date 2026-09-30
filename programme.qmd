@@ -504,10 +504,10 @@ Our social event will take place on Wednesday from 17:30 onwards at the Glasgow 
 
 :::
 
-## Awards {#awards}
+## EnviBayes-INLA workshop Awards {#awards}
 
 ::: {.programme-justified}
-To recognise outstanding contributions from students and Early Career Researchers (ECRs), the workshop will offer prizes for:
+To recognise outstanding contributions from students and Early Career Researchers (ECRs$^{(\star)}$), the workshop will offer prizes for:
 :::
 
 - Best Student/ECR Talk
@@ -516,6 +516,7 @@ To recognise outstanding contributions from students and Early Career Researcher
 
 All eligible talks and posters presented at the workshop will be considered for these prizes.
 
+$^{(\star)}$ *ECRs are defined as researchers within 8 years of completing their PhD. We recognise that career paths are not always continuous, and appropriate allowance will be made for career interruptions, including parental leave, caring responsibilities, illness, or other significant career breaks.*
 
 ## EnviBayes Student Paper Competition {#student-paper}
 
@@ -555,11 +556,32 @@ Workshop full programme will be added here soon.
 ![](EnviBayes_INLA_programme.pdf){width=120% fig-align="center"}
 
 
-## Awards
+## EnviBayes-INLA workshop Awards {#awards}
 
-The Best Poster and Best Contributed Talk Awards recognise outstanding contributions to the workshop We are particularly committed to highlighting the achievements of early-career researchers (within 8 years of completion of PhD), including PhD students and postdoctoral fellows.
+To recognise outstanding contributions from students and Early Career Researchers (ECRs$^{(\star)}$), the workshop will offer prizes for:
 
-Award winners will be announced on the final day of the workshop. All submissions for contributed talks and posters by students and early-career researchers will automatically be considered for these awards.
+- Best Student/ECR Talk
+
+- Best Student/ECR Poster
+
+All eligible talks and posters presented at the workshop will be considered for these prizes.
+
+$^{(\star)}$ *ECRs are defined as researchers within 8 years of completing their PhD. We recognise that career paths are not always continuous, and appropriate allowance will be made for career interruptions, including parental leave, caring responsibilities, illness, or other significant career breaks.*
+
+## EnviBayes Student Paper Competition {#student-paper}
+
+The workshop will also host a dedicated session featuring the winners of the 2027 EnviBayes Student Paper Competition. This annual competition recognises outstanding student-led research in Bayesian methodology and applications to environmental sciences. Winners receive a certificate and monetary award and are invited to present their work in the dedicated EnviBayes session.
+
+Talks presented in the EnviBayes session will also be eligible for the Best Student/ECR Talk prize above.
+
+Applications for the 2027 EnviBayes Student Paper Competition close on 1 December 2026 at 5pm EST. Full details on eligibility and how to apply are available on the [EnviBayes Student Paper Competition page](https://envibayes-isba.github.io/student-paper-competition.html).
+
+
+<!-- ## Awards -->
+
+<!-- The Best Poster and Best Contributed Talk Awards recognise outstanding contributions to the workshop We are particularly committed to highlighting the achievements of early-career researchers (within 8 years of completion of PhD), including PhD students and postdoctoral fellows. -->
+
+<!-- Award winners will be announced on the final day of the workshop. All submissions for contributed talks and posters by students and early-career researchers will automatically be considered for these awards. -->
 
 
 :::

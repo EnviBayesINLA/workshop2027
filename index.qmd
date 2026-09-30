@@ -150,11 +150,20 @@ The registration fee includes access to the workshop, coffee breaks, lunch, a we
 
 **Please note**: Student fees are provisional and subject to confirmation of external funding. We expect to offer the rates shown above and will confirm these with registered students once funding arrangements are finalised.
 
-## Keynote speakers {#sec-keynotes}
 
-::: coming-soon
-Information about Keynote speakers will be added here soon.
+## Sponsors {#sec-sponsors}
+
+::: {.sponsors-justified}
+We gratefully acknowledge the support of our sponsor, The International Society for Bayesian Analysis, ISBA, whose contributions help us support student and early-career researcher participation in EnviBayes-INLA 2027.
+
+![](images/ISBA _logo_highresolution2.png){fig-align="center" width="521"}
+
 :::
+<!-- ## Keynote speakers {#sec-keynotes} -->
+
+<!-- ::: coming-soon -->
+<!-- Information about Keynote speakers will be added here soon. -->
+<!-- ::: -->
 
 <!-- ------------------------------------------------------------------------ -->
 
