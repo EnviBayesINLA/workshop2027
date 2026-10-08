@@ -97,7 +97,7 @@ The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBa
 
 *Your details will only be used to send you updates about the EnviBayes–INLA Workshop 2027.*
 
-## Abstract Submission {#sec-submission}
+## Abstract Submission {#submission}
 ::: {.info-box}
 Please submit your details for a contributed talk or poster using the following link. Abstract submission will close on **31$^\text{st}$ of January 2027**.
 
@@ -115,13 +115,13 @@ Please submit your details for a contributed talk or poster using the following 
 :::
 
 
-## Registration  {#sec-regis}
+## Registration  {#regis}
 ::: coming-soon
 Information about registration will be added here soon.
 :::
 
 
-## Important Dates {#sec-dates}
+## Important Dates {#dates}
 
 ::: {.info-box}
 ::::: columns
