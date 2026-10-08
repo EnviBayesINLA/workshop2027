@@ -50,16 +50,29 @@ editor_options:
 The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBayes and INLA workshop series, bringing together researchers developing Bayesian methods for environmental, ecological, spatial and spatio-temporal statistics. The programme will feature keynote lectures, contributed talks, poster sessions, and hands-on tutorials, covering a broad range of topics including INLA, spatial modelling, extreme value analysis, climate and weather, ecology, epidemiology, and environmental applications. The workshop builds on the success of previous EnviBayes workshops ([2023](https://statistics.colostate.edu/envibayes-workshop/?utm_source=chatgpt.com), [2025](https://sites.google.com/view/envibayes2025tamu/home?utm_source=chatgpt.com)) and the [INLA: Past, Present and Future workshop](https://inla-workshop.github.io/INLA-PastPresentFuture/), creating a unique opportunity for collaboration between these two vibrant research communities.
 
 
-
-
 ## Activities Overview {#sec-activities}
-- Two pre-conference tutorials 
--  Keynote talks
--  Contributes talks
+
+::: {.activities-box}
+
+::: {.columns}
+
+::: {.column width="50%"}
+- Two pre-conference tutorials
+- Keynote talks
+- Contributed talks
 - Poster session
+:::
+
+::: {.column width="50%"}
 - Welcome reception
--  Social event
+- Social event
 - Awards
+:::
+
+:::
+
+:::
+
 
 <!-- ## Interested in attending? -->
 
@@ -95,7 +108,7 @@ The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBa
 <!-- </div> -->
 <!-- ``` -->
 
-*Your details will only be used to send you updates about the EnviBayes–INLA Workshop 2027.*
+<!-- *Your details will only be used to send you updates about the EnviBayes–INLA Workshop 2027.* -->
 
 ## Abstract Submission {#submission}
 ::: {.info-box}
@@ -132,9 +145,9 @@ Information about registration will be added here soon.
 :::
 ::: {.column width="50%"}
 #### Registration
-- **Early Bird Opens**: Expected November 2026
-- **Early Bird Closes**: Expected late February 2027
-- **Standard registration Closes**: Expected April 2027
+- **Early Bird Opens**: November 2026
+- **Early Bird Closes**: February 2027
+- **Standard registration Closes**: April 2027
 :::
 :::::
 :::
@@ -196,7 +209,7 @@ We gratefully acknowledge the support of our sponsor, The International Society 
 
 ## Contact {#sec-contact}
 
-Questions about the conference? Join the discussion on [GitHub](https://github.com/EnviBayesINLA/workshop/discussions) or contact the main organisers [Daniela Castro-Camilo](mailto:daniela.castro-camilo@glasgow.ac.uk) and [Jafet Belmont Osuna](mailto:jafet.belmontosuna@glasgow.ac.uk). 
+Questions about the conference? Join the discussion on [GitHub](https://github.com/EnviBayesINLA/workshop/discussions) or contact the main organisers at [envibayes-inla-registration@glasgow.ac.uk](mailto:envibayes-inla-registration@glasgow.ac.uk). 
 
 
 
