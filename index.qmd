@@ -61,24 +61,25 @@ The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBa
 -  Social event
 - Awards
 
-## Interested in attending?
+<!-- ## Interested in attending? -->
 
-Planning to join us in Glasgow for the EnviBayes–INLA Workshop 2027?
+<!-- Planning to join us in Glasgow for the EnviBayes–INLA Workshop 2027? -->
 
-If you are interested in attending, please add your name and email address below. We will let you know when registration and abstract submission open.
+<!-- If you are interested in attending, please add your name and email address below. We will let you know when registration and abstract submission open. -->
 
-Completing this form is **not a registration** and does not commit you to attending.
+<!-- Completing this form is **not a registration** and does not commit you to attending. -->
 
-```{=html}
-<div style="margin: 1.5rem 0 2rem 0;">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBn7uD48kb6tDXxMuqfQZf3yFsVt9K-WgYIQACOr89VwOnwA/viewform"
-     target="_blank"
-     class="btn btn-primary"
-     style="font-size: 1.05rem; padding: 0.65rem 1.3rem;">
-    Register your interest
-  </a>
-</div>
-```
+<!-- ```{=html} -->
+<!-- <div style="margin: 1.5rem 0 2rem 0;"> -->
+<!--   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBn7uD48kb6tDXxMuqfQZf3yFsVt9K-WgYIQACOr89VwOnwA/viewform" -->
+<!--      target="_blank" -->
+<!--      class="btn btn-primary" -->
+<!--      style="font-size: 1.05rem; padding: 0.65rem 1.3rem;"> -->
+<!--     Register your interest -->
+<!--   </a> -->
+<!-- </div> -->
+<!-- ``` -->
+
 
 <!-- ```{=html} -->
 <!-- <div style="max-width: 760px; margin: 1.5rem auto;"> -->
@@ -96,9 +97,27 @@ Completing this form is **not a registration** and does not commit you to attend
 
 *Your details will only be used to send you updates about the EnviBayes–INLA Workshop 2027.*
 
-## Registration and Abstract Submission {#sec-regis}
+## Abstract Submission {#sec-submission}
+::: {.info-box}
+Please submit your details for a contributed talk or poster using the following link. Abstract submission will close on **31$^\text{st}$ of January 2027**.
+
+```{=html}
+<div style="margin: 1.5rem 0 2rem 0;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU76IZ79DmKGpiOC6fCEXM4TBcXN4HKifNaO6TrkAviAhp7g/viewform?usp=sharing&ouid=101184648707091656494"
+     target="_blank"
+     class="btn btn-primary"
+     style="font-size: 1.05rem; padding: 0.65rem 1.3rem;">
+    Abstract submission
+  </a>
+</div>
+```
+
+:::
+
+
+## Registration  {#sec-regis}
 ::: coming-soon
-Information about registration and abstract submission for talks and posters will be added here soon.
+Information about registration will be added here soon.
 :::
 
 
@@ -108,14 +127,14 @@ Information about registration and abstract submission for talks and posters wil
 ::::: columns
 ::: {.column width="50%"}
 #### Contributed Talks & Posters Submission
-- **Open**: Expected September 2026
-- **Close**: Expected December 2026
+- **Open**: 8$\text{th}$ October 2026
+- **Close**: 31$\text{st}$ January 2027
 :::
 ::: {.column width="50%"}
 #### Registration
-- **Early Bird Opens**: Expected September 2026
-- **Early Bird Closes**: Expected January 2027
-- **Standard registration Closes**: Expected March 2027
+- **Early Bird Opens**: Expected November 2026
+- **Early Bird Closes**: Expected late February 2027
+- **Standard registration Closes**: Expected April 2027
 :::
 :::::
 :::
