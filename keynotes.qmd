@@ -135,6 +135,13 @@ For more information, visit his [institutional home page](https://cemse.kaust.ed
 :::
 :::
 
+
+::: {.callout-note appearance="simple" icon=false}
+**Additional keynote speaker to be announced shortly.**
+
+Stay tuned for updates!
+:::
+
 <!-- :::    -->
 
 <!-- ## Elias Teixeira Krainski -->

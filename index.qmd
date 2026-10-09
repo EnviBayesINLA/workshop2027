@@ -186,10 +186,11 @@ The registration fee includes access to the workshop, coffee breaks, lunch, a we
 ## Sponsors {#sec-sponsors}
 
 ::: {.sponsors-justified}
-We gratefully acknowledge the support of our sponsor, The International Society for Bayesian Analysis, ISBA, whose contributions help us support student and early-career researcher participation in EnviBayes-INLA 2027.
+We gratefully acknowledge the support of the **International Society for Bayesian Analysis (ISBA)** and its **Section on Environmental Sciences (EnviBayes)**, whose contributions help us support student and early-career researcher participation in EnviBayes-INLA 2027.
 
 ![](images/ISBA _logo_highresolution2.png){fig-align="center" width="521"}
 
+![](images/envibayes-logo.png){fig-align="center" width="521"}
 :::
 <!-- ## Keynote speakers {#sec-keynotes} -->
 
@@ -209,7 +210,7 @@ We gratefully acknowledge the support of our sponsor, The International Society 
 
 ## Contact {#sec-contact}
 
-Questions about the conference? Join the discussion on [GitHub](https://github.com/EnviBayesINLA/workshop/discussions) or contact the main organisers at [envibayes-inla-registration@glasgow.ac.uk](mailto:envibayes-inla-registration@glasgow.ac.uk). 
+Questions about the conference? Join the discussion on [GitHub](https://github.com/EnviBayesINLA/workshop/discussions) or contact the organisers at [envibayes-inla-registration@glasgow.ac.uk](mailto:envibayes-inla-registration@glasgow.ac.uk). 
 
 
 
