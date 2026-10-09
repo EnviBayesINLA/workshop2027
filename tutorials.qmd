@@ -6,6 +6,9 @@ title-block-banner-color: "white"
 
 format:
   html:
+    grid:
+      body-width: 1100px
+      margin-width: 150px
     include-in-header:
       - text: |
           <style>

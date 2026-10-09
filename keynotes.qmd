@@ -6,6 +6,9 @@ title-block-banner-color: "white"
 
 format:
   html:
+    grid:
+      body-width: 1100px
+      margin-width: 150px
     include-in-header:
       - text: |
           <style>
@@ -93,6 +96,10 @@ editor_options:
 
 ::: {.keynote-card}
 ::: {.keynote-copy}
+::: {.keynote-topic}
+Bayesian Methods/INLA with Environmental Applications
+:::
+
 ## Marta Blangiardo
 
 ::: {.keynote-role}
@@ -106,7 +113,7 @@ More recently, she has been developing a statistical framework for wastewater-ba
 
 :::
 
-For more information, visit her [institutional home page](https://profiles.imperial.ac.uk/m.blangiardo/about) or her [personal home page](https://martablangiardo.github.io/)
+For more information, visit her [institutional home page](https://profiles.imperial.ac.uk/m.blangiardo/about) or her [personal home page](https://martablangiardo.github.io/).
 :::
 
 ::: {.keynote-photo}
@@ -116,7 +123,11 @@ For more information, visit her [institutional home page](https://profiles.imper
 
 ::: {.keynote-card}
 ::: {.keynote-copy}
-## Haziq Jamil
+::: {.keynote-topic}
+Recent Innovations in INLA
+:::
+
+## Haziq Jamil 
 
 ::: {.keynote-role}
 Research Specialist, CEMSE Division, KAUST
@@ -126,7 +137,7 @@ Research Specialist, CEMSE Division, KAUST
 Haziq Jamil's research lies at the intersection of statistical theory, computational methods, and social science applications. He obtained his PhD and MSc in Statistics from the London School of Economics and Political Science (LSE), and his BSc from Warwick University. At KAUST, he works with Prof. Håvard Rue in the BAYESCOMP group, tackling the computational challenges of Bayesian inference for modern psychometric applications of latent variable modelling.
 :::
 
-For more information, visit his [institutional home page](https://cemse.kaust.edu.sa/profiles/haziq-jamil) or his [personal home page](https://haziqj.ml/)
+For more information, visit his [institutional home page](https://cemse.kaust.edu.sa/profiles/haziq-jamil) or his [personal home page](https://haziqj.ml/).
 
 :::
 
