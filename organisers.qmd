@@ -1,40 +1,40 @@
 ---
-title: "Organising Comittee"
+title: "Organising Committee"
 title-block-banner: "#00000000"
 title-block-banner-color: "white"
-include-in-header:
-  - text: |
-      <style>
-
-      #title-block-header {
-        background-image: url(images/River_Clyde.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 250px;
-      }
-
-      /* Title */
-      .quarto-title-block .title {
-        font-size: 3.5rem !important;
-        font-weight: 700;
-        color: white;
-      }
-
-      /* Subtitle */
-      .quarto-title-block .subtitle {
-        font-size: 1.6rem !important;
-        color: white;
-      }
-
-      /* Metadata (if any) */
-      #title-block-header.quarto-title-block.default .quarto-title-meta {
-        color: white;
-      }
-      </style>
 
 format:
   html:
     embed-resources: true
+    include-in-header:
+      - text: |
+          <style>
+          /* Title */
+          .quarto-title-block .title {
+            font-size: 3.5rem !important;
+            font-weight: 700;
+            color: white;
+          }
+
+          /* Subtitle */
+          .quarto-title-block .subtitle {
+            font-size: 1.6rem !important;
+            color: white;
+          }
+
+          /* Banner */
+          #title-block-header {
+            background-image: url(images/River_Clyde.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+          }
+
+          #title-block-header.quarto-title-block.default .quarto-title-meta {
+            color: white;
+          }
+          </style>
+
 editor_options:
   chunk_output_type: console
 ---
@@ -50,6 +50,7 @@ editor_options:
 - [Duncan Lee](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/duncanlee/)
 - [Archer Gong Zhang](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/archergongzhang/)
 - [Janine Illian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/janineillian/)
+- [Abdollah Jalilian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/abdollahjalilian/)
 - [David Bolin](https://www.kaust.edu.sa/en/study/faculty/david-bolin)
 
 

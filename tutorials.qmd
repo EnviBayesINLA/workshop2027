@@ -35,6 +35,99 @@ format:
           #title-block-header.quarto-title-block.default .quarto-title-meta {
             color: white;
           }
+          
+          /* Tutorial cards */
+          .tutorial-card {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 220px;
+            gap: 2rem;
+            align-items: center;
+            margin: 1.5rem 0 2rem;
+            padding: 2rem;
+            background: #e7f2f9;
+            border-left: 5px solid #4599d2;
+            border-radius: 12px;
+          }
+          
+          /* Small label above title */
+          .tutorial-label {
+            color: #527f9c;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+          }
+          
+          /* Tutorial title */
+          .tutorial-card h2 {
+            color: #124b62;
+            font-size: 2rem;
+            line-height: 1.2;
+            font-weight: 700;
+            margin: 0 0 1.3rem;
+            padding-bottom: 0;
+            border-bottom: none !important;
+          }
+          
+          .tutorial-card h2::after {
+            display: none !important;
+          }
+          
+          /* Divider */
+          .tutorial-divider {
+            border-top: 1px solid #b9cbd6;
+            margin: 1.3rem 0;
+          }
+          
+          /* Tutor name */
+          .tutorial-tutor {
+            font-family: Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #124b62;
+            margin-bottom: 0.3rem;
+          }
+          
+          /* Tutor affiliation */
+          .tutorial-affiliation {
+            font-size: 1rem;
+            color: #456d83;
+            line-height: 1.5;
+          }
+          
+          /* Tutor photo */
+          .tutorial-photo img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            object-position: center top;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 4px 16px rgba(27, 79, 94, 0.15);
+          }
+          
+          /* Mobile */
+          @media (max-width: 700px) {
+            .tutorial-card {
+              grid-template-columns: 1fr;
+              padding: 1.5rem;
+            }
+          
+            .tutorial-card h2 {
+              font-size: 1.6rem;
+            }
+          
+            .tutorial-photo {
+              grid-row: 1;
+              text-align: center;
+            }
+          
+            .tutorial-photo img {
+              width: 140px;
+              height: 140px;
+            }
+          }
           </style>
 
 editor_options:
@@ -46,34 +139,103 @@ editor_options:
 The following tutorials will take place prior to the EnviBayes-INLA Workshop. Please refer to the [main](index.qmd#sec-costs) workshop page for tutorial fees. The fee includes one coffee break per tutorial; lunch is not included.
 
 
-::: {.callout-note appearance="minimal" icon="false"}
-## Getting more Complex with Environmental Modelling: from `mgcv` to `Stan`
-\
-**Dave Miller,** Biomathematics and Statistics Scotland (BioSS) & UK Centre for Ecology and Hydrology (UKCEH)
-\
+::: {.tutorial-card}
+::: {.tutorial-copy}
 
+::: {.tutorial-label}
+TUTORIAL 1
+:::
+
+### Getting more Complex with Environmental Modelling: from `mgcv` to `Stan`
+
+::: {.tutorial-divider}
+:::
+
+::: {.tutorial-tutor}
+Dave Miller
+:::
+
+::: {.tutorial-affiliation}
+Biomathematics and Statistics Scotland (BioSS) & UK Centre for Ecology and Hydrology (UKCEH)
+:::
+
+:::
+
+::: {.tutorial-photo}
+![](images/dave-miller.png){fig-alt="Portrait of Dave Miller"}
+:::
 This tutorial will provide a brief introduction to making the jump from modelling in the GAM-centric package `mgcv` to the more general `Stan` probabilistic programming language. It will give some background on how the innards of `mgcv` work and how we can adapt these constructions to be used in more general ecological and environmental models. Adding spatial and temporal smoothers and structured random effects can help to add generality and flexibility to our models. Using `mgcv` to generate these structures makes things easier, especially when it comes to highly complex effects.
 
 **Duration:** 3 hours \
-**Date: Monday 21$^\text{st}$ June, 2027** \
+**Date: Monday 21$^\text{st}$ June** \
 **Time:** 09:00 -- 12:30 \
 **Venue:** Room 116, School of Mathematics & Statistics \
 
 :::
 
-::: {.callout-note appearance="minimal" icon="false"}
-## INLA AND BEYOND: Bayesian Hierarchical Modelling with `inlabru`
-\
-**Jafet Belmont Osuna,** University of Glasgow
-\
 
+::: {.tutorial-card}
+::: {.tutorial-copy}
+
+::: {.tutorial-label}
+TUTORIAL 2
+:::
+
+### INLA AND BEYOND: Bayesian Hierarchical Modelling with `inlabru`
+
+::: {.tutorial-divider}
+:::
+
+::: {.tutorial-tutor}
+Jafet Belmont Osuna
+:::
+
+::: {.tutorial-affiliation}
+University of Glasgow
+:::
+
+:::
+
+::: {.tutorial-photo}
+![](images/jafet.png){fig-alt="Portrait of Jafet Belmont Osuna"}
+:::
 INLA, a powerful tool for efficiently fitting complex spatial models, comes with a steep learning curve. This workshop introduces `inlabru` – a user-friendly interface to INLA. Learn to specify models intuitively, handle spatial data efficiently, and focus on data structures and interpretation, rather than computational complexity!
 
 **Duration:** 3 hours \
-**Date: Monday 21$^\text{st}$ June, 2027** \
+**Date: Monday 21$^\text{st}$ June** \
 **Time:** 13:30 -- 17:00 \
 **Venue:** Room 116, School of Mathematics & Statistics \
 :::
+
+
+<!-- ::: {.callout-note appearance="minimal" icon="false"} -->
+<!-- ## Getting more Complex with Environmental Modelling: from `mgcv` to `Stan` -->
+<!-- \ -->
+<!-- **Dave Miller,** Biomathematics and Statistics Scotland (BioSS) & UK Centre for Ecology and Hydrology (UKCEH) -->
+<!-- \ -->
+
+<!-- This tutorial will provide a brief introduction to making the jump from modelling in the GAM-centric package `mgcv` to the more general `Stan` probabilistic programming language. It will give some background on how the innards of `mgcv` work and how we can adapt these constructions to be used in more general ecological and environmental models. Adding spatial and temporal smoothers and structured random effects can help to add generality and flexibility to our models. Using `mgcv` to generate these structures makes things easier, especially when it comes to highly complex effects. -->
+
+<!-- **Duration:** 3 hours \ -->
+<!-- **Date: Monday 21$^\text{st}$ June, 2027** \ -->
+<!-- **Time:** 09:00 -- 12:30 \ -->
+<!-- **Venue:** Room 116, School of Mathematics & Statistics \ -->
+
+<!-- ::: -->
+
+<!-- ::: {.callout-note appearance="minimal" icon="false"} -->
+<!-- ## INLA AND BEYOND: Bayesian Hierarchical Modelling with `inlabru` -->
+<!-- \ -->
+<!-- **Jafet Belmont Osuna,** University of Glasgow -->
+<!-- \ -->
+
+<!-- INLA, a powerful tool for efficiently fitting complex spatial models, comes with a steep learning curve. This workshop introduces `inlabru` – a user-friendly interface to INLA. Learn to specify models intuitively, handle spatial data efficiently, and focus on data structures and interpretation, rather than computational complexity! -->
+
+<!-- **Duration:** 3 hours \ -->
+<!-- **Date: Monday 21$^\text{st}$ June, 2027** \ -->
+<!-- **Time:** 13:30 -- 17:00 \ -->
+<!-- **Venue:** Room 116, School of Mathematics & Statistics \ -->
+<!-- ::: -->
 
 
 <!-- ::: coming-soon -->
