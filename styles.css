@@ -7,6 +7,10 @@
 /* ── Google Fonts import ─────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap');
 
+.info-box table th:first-child {
+  white-space: nowrap;
+}
+
 /* ── CSS custom properties ───────────────────────────────────────── */
 :root {
   --wb-teal:        #1B4F5E;
