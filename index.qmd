@@ -223,24 +223,25 @@ All awards are subject to ISBA approval, and successful applicants will be reimb
 :::
 ::: {.column width="50%"}
 #### Registration
-- **Early Bird Opens**: November 2026
-- **Early Bird Closes**: 26$^\text{th}$ February 2027
-- **Standard registration Closes**: April 2027
+- **Early Bird Opens**: 11$^\text{th}$ Nov 2026
+- **Early Bird Closes**: 26$^\text{th}$ Feb 2027
+- **Registration Closes**: April 2027
 :::
 :::::
 :::
 
 
 ### Cancellation policy
+::: {style="text-align: justify;"}
 Cancellation requests must be submitted by email to [envibayes-inla-registration@glasgow.ac.uk](mailto:envibayes-inla-registration@glasgow.ac.uk).
 
-Refunds will be issued according to the following schedule, subject to a 40USD (~£30) administrative fee:
+Refunds will be issued according to the following schedule, subject to a US$40 (~£30) administrative fee:
 
 - Before 15 March 2027: 100% refund
 - 15 March – 14 April 2027: 50% refund
 - 15 April – 1 May 2027: 25% refund
 - After 1 May 2027: No refund
-
+:::
 
 
 ## Sponsors {#sec-sponsors}
