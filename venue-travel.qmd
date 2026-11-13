@@ -39,7 +39,9 @@ This page brings together practical information to help you plan your visit to G
 
 ## 🏫 Venue Information {#venue}
 
+::: {style="text-align: justify;"}
 The workshop takes place across several buildings on the University of Glasgow's Gilmorehill Campus. To help you find your way around, the map below shows where the workshop's activities will be held, from tutorials and talks to catering and poster sessions. Building-specific details, including accessibility information, are provided below.
+:::
 
 ```{r}
 #| echo: false
@@ -219,7 +221,7 @@ Accessibility & Emergency
 
 ::: callout-important
 ## Code of Conduct
-
+::: {style="text-align: justify;"}
 **Expected Behaviour**
 
 All members and participants must maintain a professional, respectful, and productive environment free from discrimination, harassment, and retaliation. Debate is encouraged but must be conducted with professionalism, respect, and courtesy.
@@ -230,16 +232,19 @@ Prohibited behaviours include threats, harassment, disrespectful comments or act
 
 These standards apply to all participants. Anyone who experiences, observes, or has knowledge of a violation should bring it to the attention of [Daniela Castro-Camilo](daniela.castrocamilo@glasgow.ac.uk) and [Jafet Belmont](jafet.belmontosuna@glasgow.ac.uk).
 :::
+:::
 
 
 
 ## 🏨 Accommodation {#accommodation}
 
+::: {style="text-align: justify;"}
 The University of Glasgow is situated in the **West End**, with a variety of small hotels and guest houses nearby, as well as easy links to City Centre hotels via the Subway.
 
 The closest Subway station to the main University campus is **Hillhead**. For City Centre hotels, the closest stations are **Buchanan Street** and **St. Enoch**. The journey between the West End and City Centre takes around 10 minutes by Subway.
 
 Delegates are advised to **book early** to guarantee availability at their preferred hotel.
+:::
 
 {{< downloadthis AccommodationSheetUoG.pdf dname="Accomodation Glasgow" label="Download Accomodation details PDF" icon="database-fill-down" type="info" >}}
 
@@ -250,15 +255,20 @@ Guidance on arriving by air (Glasgow and Edinburgh airports), rail connections t
 [View full travel guide →](https://www.visitglasgow.org.uk/convention-bureau/meeting-planners/travel/){.btn .btn-primary target="_blank"}
 
 ### 🛂 Visa Information {#visa}
-
+::: {style="text-align: justify;"}
 Delegates travelling from outside the UK should check whether they need a visa or an Electronic Travel Authorisation (ETA) to attend. As of February 2026, most visa-exempt visitors (including from the EU, US, Canada, and Australia) now require an ETA before travelling — this is separate from a visa and is usually approved within a few days, but we recommend applying at least 2–3 weeks before travel. Check requirements via the [UK government's visa/ETA checker](https://www.gov.uk/check-uk-visa).
+:::
 
 ::: {.callout-note title="Invitation letter for visa application"}
-If you require an official letter of invitation to support your visa or ETA application, please [**tick the related box in the registration form**](index.qmd#sec-regis). If you forget to do this or require further assistance, please [get in touch with the organising committee](organisers.qmd) with your name, affiliation, and passport details as they appear on your travel documents.
+::: {style="text-align: justify;"}
+If you require an official letter of invitation to support your visa or ETA application, please email the organising committee at [envibayes-inla-registration@glasgow.ac.uk](mailto:envibayes-inla-registration@glasgow.ac.uk), providing your full name (as it appears on your passport) and affiliation.
+:::
+<!-- If you require an official letter of invitation to support your visa or ETA application, please [**tick the related box in the registration form**](index.qmd#sec-regis). If you forget to do this or require further assistance, please [get in touch with the organising committee](organisers.qmd) with your name, affiliation, and passport details as they appear on your travel documents. -->
 :::
 
 ## 🚇 Exploring & Getting Around Glasgow {#getting-around}
 
+::: {style="text-align: justify;"}
 Glasgow is a vibrant and compact city with plenty to offer delegates outside of conference sessions.
 
 The city has a range of cultural attractions including the works of Charles Rennie Mackintosh and many museums and art galleries offering free entry.
@@ -266,6 +276,7 @@ The city has a range of cultural attractions including the works of Charles Renn
 If you’re extending your stay, Glasgow has excellent travel connections for exploring Scotland and an exciting selection of year-round tours leaving daily for the Scottish Highlands.
 
 Delegates can look forward to a warm welcome in a city voted ‘world’s friendliest city’ by Rough Guides.
+:::
 
 Plan your trip at: [visitglasgow.com](visitglasgow.com)
 
