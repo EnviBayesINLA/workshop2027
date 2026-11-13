@@ -50,6 +50,18 @@ editor_options:
 The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBayes and INLA workshop series, bringing together researchers developing Bayesian methods for environmental, ecological, spatial and spatio-temporal statistics. The programme will feature keynote lectures, contributed talks, poster sessions, and hands-on tutorials, covering a broad range of topics including INLA, spatial modelling, extreme value analysis, climate and weather, ecology, epidemiology, and environmental applications. The workshop builds on the success of previous EnviBayes workshops ([2023](https://statistics.colostate.edu/envibayes-workshop/?utm_source=chatgpt.com), [2025](https://sites.google.com/view/envibayes2025tamu/home?utm_source=chatgpt.com)) and the [INLA: Past, Present and Future workshop](https://inla-workshop.github.io/INLA-PastPresentFuture/), creating a unique opportunity for collaboration between these two vibrant research communities.
 :::
 
+## Topics of interest
+
+::: {style="text-align: justify;"}
+We welcome contributions on Bayesian statistical methodology and applications, including but not limited to:
+
+- Integrated Nested Laplace Approximations (INLA), including methodological developments, computational advances, and applications.
+- Spatial, spatio-temporal, and hierarchical modelling.
+- Environmental and ecological statistics, including climate, weather, and extreme events.
+- Bayesian computation, inference, and uncertainty quantification.
+- Applications of Bayesian methods in epidemiology, public health, social sciences, and other disciplines.
+:::
+
 ## Activities Overview {#sec-activities}
 
 ::: {.activities-box}

@@ -201,5 +201,12 @@
     "title": "Venue & Travel",
     "section": "♿ Accessibility & Sustainability",
     "text": "♿ Accessibility & Sustainability\nCheck the following guides for details on accessibility & Sustainability\nAccesability →\nSustainability →"
+  },
+  {
+    "objectID": "index.html#topics-of-interest",
+    "href": "index.html#topics-of-interest",
+    "title": "EnviBayes-INLA workshop",
+    "section": "Topics of interest",
+    "text": "Topics of interest\n\nWe welcome contributions on Bayesian statistical methodology and applications, including but not limited to:\n\nIntegrated Nested Laplace Approximations (INLA), including methodological developments, computational advances, and applications.\nSpatial, spatio-temporal, and hierarchical modelling.\nEnvironmental and ecological statistics, including climate, weather, and extreme events.\nBayesian computation, inference, and uncertainty quantification.\nApplications of Bayesian methods in epidemiology, public health, social sciences, and other disciplines."
   }
 ]
