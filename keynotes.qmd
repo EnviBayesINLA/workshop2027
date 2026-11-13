@@ -107,7 +107,7 @@ Professor of Statistics and Data Science, Department of Mathematics, University 
 :::
 
 ::: {.keynote-bio}
-Thordis L. Thorarinsdottir's research focuses on developing statistical and machine learning methods for environmental sciences, particularly weather, climate, and hydrology. Her methodological interests include spatial and spatio-temporal modelling, Bayesian hierarchical models, uncertainty quantification, and probabilistic forecasting, with a particular emphasis on proper scoring rules for forecast evaluation. She is currently Deputy Head and Research Leader of the Department of Mathematics at the University of Oslo and Joint Editor of the Journal of the Royal Statistical Society: Series C (Applied Statistics).
+Thordis L. Thorarinsdottir is a Professor of Statistics and Data Science and Deputy Head of the Department of Mathematics at the University of Oslo. She holds a PhD in mathematical statistics from Aarhus University and previously worked as a Chief Research Scientist at the Norwegian Computing Center. Her research develops stochastic, statistical, and machine learning models for the environmental sciences, with a core focus on uncertainty quantification, probabilistic prediction, and proper scoring rules. She is a Joint Editor of the Journal of the Royal Statistical Society: Series C (Applied Statistics).
 :::
 
 For more information, visit her [institutional home page](https://www.mn.uio.no/math/english/people/aca/thordist/).

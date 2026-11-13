@@ -4,14 +4,14 @@
     "href": "keynotes.html",
     "title": "Keynote Speakers",
     "section": "",
-    "text": "Bayesian Methods with Environmental Applications\n\n\n\n\nProfessor of Statistics and Data Science, Department of Mathematics, University of Oslo\n\n\nThordis L. Thorarinsdottir’s research focuses on developing statistical and machine learning methods for environmental sciences, particularly weather, climate, and hydrology. Her methodological interests include spatial and spatio-temporal modelling, Bayesian hierarchical models, uncertainty quantification, and probabilistic forecasting, with a particular emphasis on proper scoring rules for forecast evaluation. She is currently Deputy Head and Research Leader of the Department of Mathematics at the University of Oslo and Joint Editor of the Journal of the Royal Statistical Society: Series C (Applied Statistics).\n\nFor more information, visit her institutional home page."
+    "text": "Bayesian Methods with Environmental Applications\n\n\n\n\nProfessor of Statistics and Data Science, Department of Mathematics, University of Oslo\n\n\nThordis L. Thorarinsdottir is a Professor of Statistics and Data Science and Deputy Head of the Department of Mathematics at the University of Oslo. She holds a PhD in mathematical statistics from Aarhus University and previously worked as a Chief Research Scientist at the Norwegian Computing Center. Her research develops stochastic, statistical, and machine learning models for the environmental sciences, with a core focus on uncertainty quantification, probabilistic prediction, and proper scoring rules. She is a Joint Editor of the Journal of the Royal Statistical Society: Series C (Applied Statistics).\n\nFor more information, visit her institutional home page."
   },
   {
     "objectID": "keynotes.html#thordis-thorarinsdottir",
     "href": "keynotes.html#thordis-thorarinsdottir",
     "title": "Keynote Speakers",
     "section": "",
-    "text": "Professor of Statistics and Data Science, Department of Mathematics, University of Oslo\n\n\nThordis L. Thorarinsdottir’s research focuses on developing statistical and machine learning methods for environmental sciences, particularly weather, climate, and hydrology. Her methodological interests include spatial and spatio-temporal modelling, Bayesian hierarchical models, uncertainty quantification, and probabilistic forecasting, with a particular emphasis on proper scoring rules for forecast evaluation. She is currently Deputy Head and Research Leader of the Department of Mathematics at the University of Oslo and Joint Editor of the Journal of the Royal Statistical Society: Series C (Applied Statistics).\n\nFor more information, visit her institutional home page."
+    "text": "Professor of Statistics and Data Science, Department of Mathematics, University of Oslo\n\n\nThordis L. Thorarinsdottir is a Professor of Statistics and Data Science and Deputy Head of the Department of Mathematics at the University of Oslo. She holds a PhD in mathematical statistics from Aarhus University and previously worked as a Chief Research Scientist at the Norwegian Computing Center. Her research develops stochastic, statistical, and machine learning models for the environmental sciences, with a core focus on uncertainty quantification, probabilistic prediction, and proper scoring rules. She is a Joint Editor of the Journal of the Royal Statistical Society: Series C (Applied Statistics).\n\nFor more information, visit her institutional home page."
   },
   {
     "objectID": "keynotes.html#marta-blangiardo",
@@ -96,6 +96,13 @@
     "title": "EnviBayes-INLA workshop",
     "section": "",
     "text": "The EnviBayes–INLA Workshop 2027 is the first joint meeting between the EnviBayes and INLA workshop series, bringing together researchers developing Bayesian methods for environmental, ecological, spatial and spatio-temporal statistics. The programme will feature keynote lectures, contributed talks, poster sessions, and hands-on tutorials, covering a broad range of topics including INLA, spatial modelling, extreme value analysis, climate and weather, ecology, epidemiology, and environmental applications. The workshop builds on the success of previous EnviBayes workshops (2023, 2025) and the INLA: Past, Present and Future workshop, creating a unique opportunity for collaboration between these two vibrant research communities."
+  },
+  {
+    "objectID": "index.html#topics-of-interest",
+    "href": "index.html#topics-of-interest",
+    "title": "EnviBayes-INLA workshop",
+    "section": "Topics of interest",
+    "text": "Topics of interest\n\nWe welcome contributions on Bayesian statistical methodology and applications, including but not limited to:\n\nIntegrated Nested Laplace Approximations (INLA), including methodological developments, computational advances, and applications.\nSpatial, spatio-temporal, and hierarchical modelling.\nEnvironmental and ecological statistics, including climate, weather, and extreme events.\nBayesian computation, inference, and uncertainty quantification.\nApplications of Bayesian methods in epidemiology, public health, social sciences, and other disciplines."
   },
   {
     "objectID": "index.html#sec-activities",
@@ -201,12 +208,5 @@
     "title": "Venue & Travel",
     "section": "♿ Accessibility & Sustainability",
     "text": "♿ Accessibility & Sustainability\nCheck the following guides for details on accessibility & Sustainability\nAccesability →\nSustainability →"
-  },
-  {
-    "objectID": "index.html#topics-of-interest",
-    "href": "index.html#topics-of-interest",
-    "title": "EnviBayes-INLA workshop",
-    "section": "Topics of interest",
-    "text": "Topics of interest\n\nWe welcome contributions on Bayesian statistical methodology and applications, including but not limited to:\n\nIntegrated Nested Laplace Approximations (INLA), including methodological developments, computational advances, and applications.\nSpatial, spatio-temporal, and hierarchical modelling.\nEnvironmental and ecological statistics, including climate, weather, and extreme events.\nBayesian computation, inference, and uncertainty quantification.\nApplications of Bayesian methods in epidemiology, public health, social sciences, and other disciplines."
   }
 ]
